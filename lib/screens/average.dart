@@ -81,10 +81,14 @@ class _MovingAverageState extends State<MovingAverage> {
   }
 
   Widget buildDataTable() {
-    return DataTable(
-      headingRowColor: MaterialStateColor.resolveWith((states) => bgContainer),
-      columns: getColumns(),
-      rows: getRows(),
+    return Container(
+      width: double.infinity,
+      child: DataTable(
+        headingRowColor:
+            MaterialStateColor.resolveWith((states) => bgContainer),
+        columns: getColumns(),
+        rows: getRows(),
+      ),
     );
   }
 

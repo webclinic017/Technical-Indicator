@@ -57,11 +57,15 @@ class _TechnicalIndicatorState extends State<TechnicalIndicator> {
   }
 
   Widget buildDataTable() {
-    return DataTable(
-      columnSpacing: 20,
-      headingRowColor: MaterialStateColor.resolveWith((states) => bgContainer),
-      columns: getColumns(),
-      rows: getRows(),
+    return Container(
+      width: double.infinity,
+      child: DataTable(
+        columnSpacing: 20,
+        headingRowColor:
+            MaterialStateColor.resolveWith((states) => bgContainer),
+        columns: getColumns(),
+        rows: getRows(),
+      ),
     );
   }
 

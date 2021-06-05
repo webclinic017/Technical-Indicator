@@ -48,10 +48,13 @@ class _PivotPointState extends State<PivotPoint> {
   }
 
   Widget buildDataTable() {
-    return DataTable(
-      columnSpacing: 60,
-      columns: getColumns(),
-      rows: getRows(),
+    return Container(
+      width: double.infinity,
+      child: DataTable(
+        columnSpacing: 60,
+        columns: getColumns(),
+        rows: getRows(),
+      ),
     );
   }
 

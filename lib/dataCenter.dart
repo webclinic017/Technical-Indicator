@@ -6,7 +6,7 @@ List barItemsList = [
 
 List maItemsList = [
   {'id': '1', 'name': 'Exponential'},
-  {'id': '2', 'name': 'Expo'},
+  {'id': '2', 'name': 'Simple'},
 ];
 
 List<String> maColumnItems = ['Period', 'Value', 'Type'];
@@ -41,7 +41,11 @@ List technicalIndicatorList = [
 ];
 
 List ppItems = [
-  {'id': '1', 'name': 'Classic'}
+  {'id': '1', 'name': 'Classic'},
+  {'id': '2', 'name': 'Fibonacci'},
+  {'id': '3', 'name': 'Camarilla'},
+  {'id': '4', 'name': 'Woodie\'s'},
+  {'id': '5', 'name': 'DeMark\'s'}
 ];
 List<String> ppColumnItems = ['', ''];
 List ppList = [
@@ -49,7 +53,7 @@ List ppList = [
   {'name': 'S2', 'value': 456.87},
   {'name': 'S3', 'value': 456.87},
   {'name': 'Pivot Points', 'value': 456.87},
-  {'name': 'r1', 'value': 456.87},
+  {'name': 'R 1', 'value': 456.87},
   {'name': 'R2', 'value': 456.87},
   {'name': 'R3', 'value': 456.87},
 ];
